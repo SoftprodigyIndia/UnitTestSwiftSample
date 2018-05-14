@@ -13,6 +13,8 @@
 		BE05BA7A20AA1F13002EC8BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE05BA7920AA1F13002EC8BF /* Assets.xcassets */; };
 		BE05BA7D20AA1F13002EC8BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE05BA7B20AA1F13002EC8BF /* LaunchScreen.storyboard */; };
 		BE05BA8820AA1F13002EC8BF /* UnitTestSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05BA8720AA1F13002EC8BF /* UnitTestSampleTests.swift */; };
+		BE05BA9320AA201E002EC8BF /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05BA9220AA201E002EC8BF /* Car.swift */; };
+		BE05BA9520AA2091002EC8BF /* CarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05BA9420AA2091002EC8BF /* CarTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		BE05BA8320AA1F13002EC8BF /* UnitTestSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE05BA8720AA1F13002EC8BF /* UnitTestSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestSampleTests.swift; sourceTree = "<group>"; };
 		BE05BA8920AA1F13002EC8BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE05BA9220AA201E002EC8BF /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		BE05BA9420AA2091002EC8BF /* CarTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 				BE05BA7920AA1F13002EC8BF /* Assets.xcassets */,
 				BE05BA7B20AA1F13002EC8BF /* LaunchScreen.storyboard */,
 				BE05BA7E20AA1F13002EC8BF /* Info.plist */,
+				BE05BA9220AA201E002EC8BF /* Car.swift */,
 			);
 			path = UnitTestSample;
 			sourceTree = "<group>";
@@ -91,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				BE05BA8720AA1F13002EC8BF /* UnitTestSampleTests.swift */,
+				BE05BA9420AA2091002EC8BF /* CarTests.swift */,
 				BE05BA8920AA1F13002EC8BF /* Info.plist */,
 			);
 			path = UnitTestSampleTests;
@@ -199,6 +205,7 @@
 			files = (
 				BE05BA7520AA1F11002EC8BF /* ViewController.swift in Sources */,
 				BE05BA7320AA1F11002EC8BF /* AppDelegate.swift in Sources */,
+				BE05BA9320AA201E002EC8BF /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE05BA9520AA2091002EC8BF /* CarTests.swift in Sources */,
 				BE05BA8820AA1F13002EC8BF /* UnitTestSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,7 +366,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = UnitTestSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -366,6 +375,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.softprodigy.UnitTestSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -375,7 +385,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = UnitTestSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -383,6 +394,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.softprodigy.UnitTestSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
